@@ -1,0 +1,10 @@
+a=0;
+b=1;
+p=0;
+for(i=1;b<=100;i++)
+{
+console.log(b);
+p=a+b;
+a=b;
+b=p;
+}
